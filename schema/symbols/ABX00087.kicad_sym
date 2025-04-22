@@ -1,0 +1,332 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ABX00087" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -17.78 26.162 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ABX00087" (id 1) (at -17.78 -25.4 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "ABX00087:MODULE_ABX00087" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Arduino" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            The Arduino UNO R4 WiFi features a 32-bit Renesas RA4M1 microcontroller (48 MHz ARM Cortex M4) and ESP32-S3-MINI-1-N8 WiFi module. The board features enhanced memory specifications with 256kB flash, 32kB SRAM, and 8kB EEPROM, while supporting both WiFi (802.11 b/g/n) and Bluetooth® 5.x connectivity at 2.4GHz. This combination of features makes it a versatile platform for wireless communication projects and IoT applications, offering significantly more processing power and connectivity options than previous UNO models.\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/ABX00087/Arduino/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "4" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/ABX00087/Arduino/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "ABX00087" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Arduino" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ABX00087_0_0"
+      (rectangle (start -17.78 -22.86) (end 17.78 25.4)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at -22.86 20.32 0) (length 5.08)
+        (name "GND_JO2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JO2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -22.86 22.86 0) (length 5.08)
+        (name "OFF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JO1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 17.78 0) (length 5.08)
+        (name "VBATT/VRTC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JO3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -22.86 12.7 0) (length 5.08)
+        (name "BOOT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -22.86 10.16 0) (length 5.08)
+        (name "IOREF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -22.86 7.62 0) (length 5.08)
+        (name "~{RESET}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 5.08 0) (length 5.08)
+        (name "+3V3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 2.54 0) (length 5.08)
+        (name "+5V"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 0.0 0) (length 5.08)
+        (name "GND_JA6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 -5.08 0) (length 5.08)
+        (name "VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -7.62 0) (length 5.08)
+        (name "A0/D14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 -2.54 0) (length 5.08)
+        (name "GND_JA7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -10.16 0) (length 5.08)
+        (name "A1/D15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -12.7 0) (length 5.08)
+        (name "A2/D16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -15.24 0) (length 5.08)
+        (name "A3/D17"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -17.78 0) (length 5.08)
+        (name "A4/D18"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -20.32 0) (length 5.08)
+        (name "A5/D19"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JA14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 22.86 180.0) (length 5.08)
+        (name "D19/SCL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 20.32 180.0) (length 5.08)
+        (name "D18/SDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 22.86 17.78 180.0) (length 5.08)
+        (name "AREF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 15.24 180.0) (length 5.08)
+        (name "GND_JD15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 12.7 180.0) (length 5.08)
+        (name "D13/SCK/CANRX0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 10.16 180.0) (length 5.08)
+        (name "D12/CIPO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 7.62 180.0) (length 5.08)
+        (name "D11/COPI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 5.08 180.0) (length 5.08)
+        (name "D10/CS/CANTX0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 2.54 180.0) (length 5.08)
+        (name "D9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 0.0 180.0) (length 5.08)
+        (name "D8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -2.54 180.0) (length 5.08)
+        (name "D7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -5.08 180.0) (length 5.08)
+        (name "D6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -7.62 180.0) (length 5.08)
+        (name "D5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -10.16 180.0) (length 5.08)
+        (name "D4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -12.7 180.0) (length 5.08)
+        (name "D3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -15.24 180.0) (length 5.08)
+        (name "D2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -17.78 180.0) (length 5.08)
+        (name "D1/TX0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -20.32 180.0) (length 5.08)
+        (name "D0/TX0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JD1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
